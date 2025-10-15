@@ -107,7 +107,7 @@ A chaque redémarrage windows est un peu chiant, il faut reassigner le peripheri
 Autrement si pas de double écran avec sortie casque, ni entrée ligne (laptop), ma solution : Voicemeeter Banana avec VB Cable
 
 
-Stereodist c'est une fonction un peu plus galère a configurer, mais ça rends la chose bien plus réaliste !
+Stereodist c'est une fonction un peu plus galère a configurer, mais ça rends la chose bien plus réaliste !!
 
 
 -------------------
