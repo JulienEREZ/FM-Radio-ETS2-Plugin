@@ -304,3 +304,9 @@ _______
 Q: Je suis sur le jeu, mais la position reste sur X:0 Y:0 Z:0, pourquoi ?
 
 R: Bien verifier que ETS2 Télémetry.exe soit bien lancé / Assurez vous que l'IP locale du pc soit identique a celle renseigné dans proxy.js
+
+________
+
+Q: Pourquoi lorsque je vais sur Grand Utopia, j'ai les mêmes presets de l'Autostore que sur la map de base ?
+
+R: C'est normal, Le navigateur conserve les derniers presets créés par l'autostore, il ne peux pas différencier les 2, même si ce sont 2 html différents, car l'ID est exactement la même
