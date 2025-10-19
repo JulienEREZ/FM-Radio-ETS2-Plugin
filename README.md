@@ -75,7 +75,7 @@ Pensez a ouvrir ETS2 Telemetry.exe et le configurer afin de pouvoir recevoir la 
 Pour ouvrir ETS2 Télémetry : une fois dézippé, Rentrez dans le dossier ets2-telemetry-server-master, ensuite "Server" puis vous avez Ets2Telemetry.exe
 
 Le test de la page, si tout fonctionne bien :
-http://localhost:8000/radio.html
+http://localhost:8000/RetroTuner_EU.html
 
 Les prochaines fois, il y aura juste besoin d'aller sur le fichier Start.bat pour tout lancer d'un coup
 
@@ -128,7 +128,7 @@ Dans le débug en bas de page il y a possibilité de voir le nom de la station, 
 -----------------------------------------
 
 
-## Qu'est ce que Stereodist.html ?
+## Qu'est ce que StereoDist ?
 
 Stereodist c'est une feature avancée de la radio, elle rends l'audio plus réaliste, coupure du stereo quand le signal devient plus faible, effet de distortion lorsque le signal est faible, suivi d'une perte des aigus
 
