@@ -114,7 +114,7 @@ Si vous avez une manette, une boite à boutons, un volant, il suffira d'assigner
 
 Dans le débug en bas de page il y a possibilité de voir le nom de la station, lancer un scan, naviguer dans les fréquences, voir la position actuelle 
 
------------------------------------------
+----------------------------------------- 
 
 
 ## Qu'est ce que Stereodist.html ?
