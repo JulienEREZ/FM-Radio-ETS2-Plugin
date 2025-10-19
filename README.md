@@ -273,3 +273,9 @@ ________________
 Q: Pourquoi ne pas avoir créé un executable plutôt qu'un .bat ?
 
 R: J'ai tenté de creer un executable, mais certaines fonctions fondamentales comme la télémétrie ne répondait plus a l'appel, c'est aussi une façon a ce que chaqu'un puisse modifier certaines choses, comme la sensibilité du scan, le seuil de basculement pour la fonction AF
+
+________________
+
+Q: Il existe déjà un plugin radio créé par Koevenh est ce une nouvelle version ?
+
+R: J'ai été inspiré du plugin LocalRadio de Koevenh, j'ai énormément apprécié ce plugin, ceci dit, LocalRadio ne fonctione pas exactement pareil, il ne mets pas a disposition une bande FM naviguable, LocalRadio, la bande FM est remplacé par une liste définie sur une ville, un peu comme le DAB, mais avec un whitenoise, si la station est hors portée, il n'y aura rien d'autre, concernant la bande FM, si une station est hors de portée, en faisant quelques kilomètres, une autre sera peut être a portée
