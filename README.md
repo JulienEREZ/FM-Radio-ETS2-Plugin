@@ -30,7 +30,9 @@ VB Cable : https://vb-audio.com/Cable/index.htm
 #### Installation des pré-requis:
 
 Installez Python 3.13
+
 Installez Node
+
 Dezipper ETS2 Telemetry (avec 7zip de préférence)
 
 ------------------------------------------
@@ -43,15 +45,19 @@ et bien penser a ouvrir ETS2 Telemetry.exe sur le pc avec ETS2 pour la lecture d
 
 
 ------------------------------------------
-#Création de l'environement
+# Création de l'environement
 
 Ouvrir un CMD sur le dossier en cours, puis copier coller ces lignes (il y aura besoin de plusieurs CMD)
 
 
 npm init -y
+
 npm install express node-fetch
+
 node proxy.js
+
 npm install ws
+
 node server.js
 
 
@@ -114,7 +120,7 @@ Si vous avez une manette, une boite à boutons, un volant, il suffira d'assigner
 
 Dans le débug en bas de page il y a possibilité de voir le nom de la station, lancer un scan, naviguer dans les fréquences, voir la position actuelle 
 
------------------------------------------ 
+-----------------------------------------
 
 
 ## Qu'est ce que Stereodist.html ?
@@ -126,6 +132,8 @@ dans les parametres audio de windows, cherchez Edge, puis assignez le peripheriq
 
 
 A chaque redémarrage, windows est un peu chiant, il faut reassigner le peripherique de sortie pour avoir a nouveau l'audio du plugin sur stereodist
+
+
 L'autre méthode c'est de lancer le plugin, copier le lien du plugin_radio.html, l'ouvrir sur un autre onglet et fermer l'autre, souvent l'audio va ensuite dans le bon device 
 (les bugs windows qui rendent fou)
 
@@ -142,70 +150,126 @@ Si besoin d'ajouter des stations, changer les stations, fréquences, il suffit d
 ## Questions & Réponses
 
 Q: Pourquoi l'Europe ne comporte que quelques stations pour chaque villes ?
+
 R: Comme vous le savez, ETS2 possède un très grand nombre de villes, si chaque villes possederait 30 stations, la bande FM serait très rapidement saturée
-
+____________________
 Q: Est ce que je peux ajouter une station/modifier celles existantes | Planter un émetteur dans une ville de son choix
+
 R: Vous êtes libre de modidier/ajouter des stations, implémenter des émetteurs, pour ajouter une station, pensez à aller sur le fichier formcreerradio.html qui aide a ajouter les stations, il ne suffira plus qu'à les coller dans stationseurope.js
-
+_________________________
 Q: Je veux ajouter un émetteur mais je ne sais pas comment faire pour trouver la position
+
 R: Activez le mode Développer et Console sur le fichier Config.cfg d'ETS2 se trouvant dans Documents/ETS2 | cherchez uset "g_developer" et mettez le sur "1" , puis uset g_console et mettez le sur "1" , Sauvegardez, puis sur ETS2 appuyez sur la touche 0 (celle avec le @/à) , puis naviguez en camera libre avec le pavé numérique, puis a la position souhaité, faites F11, vous aurez une fenetre de report avec 3 positions affichée, la première équivaut à X, la seconde à Z (ne pas en tenir compte), la dernière à Y, puis vous n'avez plus qu'à les reporter dans le formulaire
-
+______________
 Q: J'ai ajouté une station et une fréquence, mais le plugin ne la pas pris en compte, j'ai un bruit blanc sur la station choisie
+
 R: Il est probable que le navigateur ait gardé le cache de la version précédente, dans le navigateur faitez ctrl+F5, puis regardez si elle est maintenant dispo
-
+_______________
 Q: J'ai suivi le processus ctrl+F5, mais la station n'est toujours pas présente, que dois je faire
-R: Vérifiez que la position a été correctement renseignée, souvent on a tendance a oublier le - ou oublier un chiffre, pour verifier, allez dans mapall.html (via http://localhost:8000/mapall.html), décochez toutes les fréquences depuis le bouton en bas, puis cochez la fréquence, et regardez si vous trouvez bien le rayon d'émission
 
+R: Vérifiez que la position a été correctement renseignée, souvent on a tendance a oublier le - ou oublier un chiffre, pour verifier, allez dans mapall.html (via http://localhost:8000/mapall.html), décochez toutes les fréquences depuis le bouton en bas, puis cochez la fréquence, et regardez si vous trouvez bien le rayon d'émission
+_________________
 Q: Je suis en caméra libre, mais je captes exactement la même chose alors que je suis a 200km du camion, est ce un bug ?
+
 R: En caméra libre, la télémétrie n'est pas pris en compte, il faut faire spawn le camion a cet endroit (ctrl+f9)
 
+________________
+
 Q: J'ai ajouté une station et une fréquence, mais le plugin a un affichage étrange depuis cet ajout, la fréquence sort de l'afficheur avec un MHZ
+
 R: Il est fort probable que vous ayez oublié la virgule à la fin de votre saisie si pas à la fin (par ex: range: 42000 } ) / placé une virgule à la fin de la dernière saisie (range: 42000 },) le formulaire place toujours la virgule à la fin, soyez bien attentif | Autre possiblité : que vous ayez effacé une lettre par inadvertence / effacé le pied du script (le ]; à la toute fin)
 
+______________________
+
 Q: Quand je veux avancer de fréquence en fréquence, je suis bloqué sur une station, comment me débloquer ?
+
 R: Par défaut au lancement du plugin, la fonction de Fréquence Alternative est activée, il suffit de la désactiver via le bouton au dessus du poste
 
+______________
+
 Q: A quoi sert le bouton de Fréquence Alternative ?
+
 R: Lorsque vous vous déplacez, vous vous déplacez dans le rayon d'émission de l'émetteur 1, lorsque le signal devient faible, si l'émetteur 2 comportant la même station est à portée, il basculera directement sur celle ci, il y aura un petit temps de chargement du flux
 
+____________
+
 Q: A quoi sert L'autostore (AST) ?
+
 R: L'autostore vous permets de mémoriser 5 stations les plus fortes selon votre position
 
+______________
+
 Q: Comment utiliser L'autostore (AST) ?
+
 R: Via le bouton du poste (AST), appuyez dessus, il aura mémorisé les stations les plus fortes, vous n'aurez plus qu'à naviguer entre le bouton 1 à 5 pour choisir votre station | Vous pouvez le réaliser également en jeu via le volant/clavier/manette avec la méthode DSCB
 
+_______________
+
 Q: Lorsque j'ouvres le fichier HTML du plugin, rien ne fonctionne
+
 R: Il ne faut pas ouvrir le plugin via le fichier html directement, il faut toujours passer via le server local localhost, via le fichier .bat qui ouvre ce server directement
 
+_______________
+
 Q: Est ce que le plugin est compatible avec ATS ?
+
 R: Oui et non, Oui il l'est car la télémétrie est la même que celle de ETS, et non car il n'y a pas de stations configurés pour les villes d'ATS, mais il est tout à fait possible de creer un stationats.js, puis d'y implémenter les stations !, il faut juste creer une copie du plugin, puis remplacer stationseurope.js par stationsats.js (ou le nom souhaité)
 
+_______________
+
 Q: Puis je partager mon fichier de stations à la communautée ? | Embellir le fichier existant et le proposer en tant que nouvelle version ? | Proposer un fichier pour ATS ?
+
 R: Il est tout à fait possible de partager son propre fichier de stations à la communautée / Une mise à jour du fichier existant avec de nouvelles stations, bien plus garnie/ reorganiser les fréquences ? Oui, et je dirais même merci beaucoup d'agrandir la liste des stations | Une réorganisation des fréquences, également !
+_______________
 
 Q: A l'heure actuelle, dans quelle map le plugin est le plus compatible
+
 R: Le plugin est bien plus garni en stations dans la map GrandUtopia du au fait qu'il n'y a pas beaucoup de villes, et que la map n'est pas immense
 
+__________
+
 Q: Est-ce que la réception est réaliste ?
+
 R: Oui, le comportement de la réception est simulé de manière réaliste (perte progressive, bruit blanc, bascule de fréquence si AF activé), les portées varient selon les émetteurs
 
+____________________
+
 Q: Si je suis dans un tunnel, est ce que je perds la réception ?
+
 R: Le plugin est basé sur la télémétrie (Position X, Y et la hauteur), pas de l'environement direct d'ETS2, il serait très complexe de coder le plugin via l'environement direct
 
+____________________
+
 Q: Est ce que la radio capte partout ?
+
 R: Non, certaines zones peuvent être mal couvertes, cela renforce l'immersion et l'aspect authentique du plugin
 
+__________
+
 Q: Si je suis tout en haut d'une colline, est ce que je captes mieux que si je suis tout en bas ?
+
 R: Oui, en haut d'une colline il est possible même de capter une station qui tout en bas ne captes pas du tout (no signal)
 
+__________
+
 Q: Est ce que la fonction Stereodist est obligatoire ?
+
 R: Non, Elle est optionnelle mais elle rajoute une vraie dimension audio, par exemple la perte du stereo, l'attenuation des aigus selon la puissance du signal, accompagné d'une accentuation de distortion de l'audio
 
+________________
+
 Q: Pourquoi avoir choisi ce style de radio des années 90 ?
+
 R: Les autoradios de l'époque avaient quelque chose que les autoradios modernes n'ont pas, c'est également pour retrouver la sensation de ces anciens autoradios, une réception imparfaite, un vrai scan FM, pas un "Seek" aseptisé sans âme, puis cette sensation d'exploration et de découverte comme pendant la route des vacances, vous tombez sur une station inconnue mais incroyable, loin de cette ère du streaming uniformisé et sans saveur
 
+________________
+
 Q: Le plugin est il dans sa version finale ?
+
 R: Le plugin sera probablement amené a évoluer dans le temps
 
+________________
+
 Q: Pourquoi ne pas avoir créé un executable plutôt qu'un .bat ?
+
 R: J'ai tenté de creer un executable, mais certaines fonctions fondamentales comme la télémétrie ne répondait plus a l'appel, c'est aussi une façon a ce que chaqu'un puisse modifier certaines choses, comme la sensibilité du scan, le seuil de basculement pour la fonction AF
