@@ -156,7 +156,8 @@ Si besoin d'ajouter des stations, changer les stations, fréquences, il suffit d
 
 Q: Pourquoi l'Europe ne comporte que quelques stations pour chaque villes ?
 
-R: Comme vous le savez, ETS2 possède un très grand nombre de villes, si chaque villes possederait 30 stations, la bande FM serait très rapidement saturée
+R: Comme vous le savez, ETS2 possède un très grand nombre de villes, tout completer (station par station) prendrait beaucoup de temps
+
 ____________________
 Q: Est ce que je peux ajouter une station/modifier celles existantes | Planter un émetteur dans une ville de son choix
 
