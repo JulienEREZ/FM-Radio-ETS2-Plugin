@@ -5,26 +5,32 @@ Voilà quelques instructions à suivre pour installer correctement le plugin
 Les Pré-requis :
 
 7zip : https://www.7-zip.org/download.html
+
 Node : https://nodejs.org/fr/download
+
 Python : https://www.python.org/downloads/
+
 ETS2 Telemetry : https://github.com/Funbit/ets2-telemetry-server
+
 Notepad++ : https://notepad-plus-plus.org/downloads/
 
 Autres outils :
 
 DCSB : https://github.com/Kalejin/DCSB
+
 JoyToKey : https://joytokey.net/en/download
 
 Voicemeeter (Pour ceux qui n'ont pas d'écran avec sortie casque / Laptop sans Entrée Ligne)
 
 Voicemeeter : https://vb-audio.com/Voicemeeter/banana.htm
+
 VB Cable : https://vb-audio.com/Cable/index.htm
 
 
 -----------------------------------------
 
-Installez Python 3.13
-Installez Node
+Installez Python 3.13,
+Installez Node,
 Dezipper ETS2 Telemetry (avec 7zip de préférence)
 
 ------------------------------------------
@@ -43,20 +49,25 @@ Ouvrir un CMD sur le dossier en cours, puis copier coller ces lignes (il y aura 
 
 
 npm init -y
+
 npm install express node-fetch
+
 node proxy.js
 
 npm install ws
+
 node server.js
 
 
 Pour lancer le server local : 
+
 python -m http.server 8000
 
 
 
 Pensez a ouvrir ETS2 Telemetry.exe et le configurer afin de pouvoir recevoir la position du camion (une fois le jeu lancé, partie lancée)
-Le test de la page, si tout fonctionne bien
+
+Le test de la page, si tout fonctionne bien :
 http://localhost:8000/radio.html
 
 Les prochaines fois, il y aura juste besoin d'aller sur le fichier Start.bat pour tout lancer d'un coup
