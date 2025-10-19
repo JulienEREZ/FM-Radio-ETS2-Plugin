@@ -279,3 +279,15 @@ ________________
 Q: Il existe déjà un plugin radio créé par Koevenh est ce une nouvelle version ?
 
 R: J'ai été inspiré du plugin LocalRadio de Koevenh, j'ai énormément apprécié ce plugin, ceci dit, LocalRadio ne fonctione pas exactement pareil, il ne mets pas a disposition une bande FM naviguable, LocalRadio, la bande FM est remplacé par une liste définie sur une ville, un peu comme le DAB, mais avec un whitenoise, si la station est hors portée, il n'y aura rien d'autre, concernant la bande FM, si une station est hors de portée, en faisant quelques kilomètres, une autre sera peut être a portée
+
+_____
+
+Q: J'ai le DLC Grece, pourquoi je ne reçois aucune station en grece ?
+
+R: Pour le moment aucun émetteur n'a été implanté dans cette zone, cette zone sera couverte très bientôt !
+
+_____
+
+Q: Je suis sur la map d'ETS, mais je ne reçois rien, pourtant je suis en Allemagne/Benelux/France, est ce normal ?
+
+R: Il est fort probable que le HTML lancé n'est pas celui de la map europe, mais celle pour Grand Utopia
