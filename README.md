@@ -40,6 +40,9 @@ Dezipper ETS2 Telemetry (avec 7zip de préférence)
 
 **ATTENTION DE BIEN CONFIGURER "proxy.js" et de mettre l'IP locale de VOTRE PC qui tournes avec ETS2**
 
+L'IP locale peut être trouvable via CMD en tapant ipconfig
+Bien penser a renseigner l'adresse IPv4 (192.168.x.x)
+
 Si c'est un setup double PC, bien mettre l'IP locale du PC avec ETS2, non celui du pc qui lit le plugin
 et bien penser a ouvrir ETS2 Telemetry.exe sur le pc avec ETS2 pour la lecture de la position
 
@@ -68,6 +71,8 @@ python -m http.server 8000
 
 
 Pensez a ouvrir ETS2 Telemetry.exe et le configurer afin de pouvoir recevoir la position du camion (une fois le jeu lancé, partie lancée)
+
+Pour ouvrir ETS2 Télémetry : une fois dézippé, Rentrez dans le dossier ets2-telemetry-server-master, ensuite "Server" puis vous avez Ets2Telemetry.exe
 
 Le test de la page, si tout fonctionne bien :
 http://localhost:8000/radio.html
@@ -291,3 +296,10 @@ _____
 Q: Je suis sur la map d'ETS, mais je ne reçois rien, pourtant je suis en Allemagne/Benelux/France, est ce normal ?
 
 R: Il est fort probable que le HTML lancé n'est pas celui de la map europe, mais celle pour Grand Utopia
+
+_______
+
+
+Q: Je suis sur le jeu, mais la position reste sur X:0 Y:0 Z:0, pourquoi ?
+
+R: Bien verifier que ETS2 Télémetry.exe soit bien lancé / Assurez vous que l'IP locale du pc soit identique a celle renseigné dans proxy.js
