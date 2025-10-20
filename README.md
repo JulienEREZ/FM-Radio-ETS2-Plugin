@@ -89,7 +89,7 @@ Possibilité de naviguer manuellement sur chaque fréquences, ou utiliser la fon
 
 L'autoradio dispose d'une fonction autostore, permettant de stocker les 5 stations les mieux reçus
 
-La radio ne dispose pas de la fonction 'RDS', affichage de la station via l'afficheur, mais il a la fonction de fréquence alternative qui (activé par défaut) permetant a l'utilisateur de conduire sereinement, sans avoir besoin de toucher à l'autoradio, lorsque le signal devient faible, si la même station est disponible, il bascule automatiquement dessus, il y aura une petite coupure de son afin de lire le flux
+La radio ne dispose pas de la fonction 'RDS', affichage de la station via l'afficheur, mais il a la fonction de fréquence alternative permetant a l'utilisateur de conduire sereinement, sans avoir besoin de toucher à l'autoradio, lorsque le signal devient faible, si la même station est disponible, il bascule automatiquement dessus, il y aura une petite coupure de son afin de lire le flux
 
 La fonction AF est affiché sur l'afficheur lorsqu'il est activé, lorsqu'il est désactivé, AF n'est pas affiché
 
@@ -189,7 +189,7 @@ ______________________
 
 Q: Quand je veux avancer de fréquence en fréquence, je suis bloqué sur une station, comment me débloquer ?
 
-R: Par défaut au lancement du plugin, la fonction de Fréquence Alternative est activée, il suffit de la désactiver via le bouton au dessus du poste
+R: La fonction AF (Fréquence Alternative) a été activée, pour ne plus être bloqué sur une station, désactivez la fonction via le bouton au dessus du poste ou via le raccourci défini par DSCB
 
 ______________
 
