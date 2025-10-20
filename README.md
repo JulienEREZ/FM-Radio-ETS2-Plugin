@@ -181,7 +181,7 @@ R: En caméra libre, la télémétrie n'est pas pris en compte, il faut faire sp
 
 ________________
 
-Q: J'ai ajouté une station et une fréquence, mais le plugin a un affichage étrange depuis cet ajout, la fréquence sort de l'afficheur avec un MHZ
+Q: J'ai ajouté une station et une fréquence, mais la radio ne s'allume plus depuis cet ajout, pourquoi ?
 
 R: Il est fort probable que vous ayez oublié la virgule à la fin de votre saisie si pas à la fin (par ex: range: 42000 } ) / placé une virgule à la fin de la dernière saisie (range: 42000 },) le formulaire place toujours la virgule à la fin, soyez bien attentif | Autre possiblité : que vous ayez effacé une lettre par inadvertence / effacé le pied du script (le ]; à la toute fin)
 
