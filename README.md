@@ -127,6 +127,12 @@ Dans le débug en bas de page il y a possibilité de voir le nom de la station, 
 
 -----------------------------------------
 
+## Utilitaire de plan de fréquences
+
+L'utilitaire permet d'attribuer automatiquement des fréquences à la ville souhaitée, dispo pour Grand Utopia et la map de base d'ETS2
+Il suffit de renseigner le nom de la ville, suivi du nombre de fréquences à attribuer, selon la couverture d'autres stations dans la zone provenant d'autres villes, il attribuera de nouvelles fréquences si il y en a de disponible pour la zone
+par exemple Paris : je veux 3 nouvelles stations : Paris,3, puis une fois cliqué sur le bouton générer en bas de la page, il affichera les fréquences disponible
+
 
 ## Qu'est ce que StereoDist ?
 
