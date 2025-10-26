@@ -230,7 +230,15 @@ Q: Comment utiliser L'autostore (AST) ?
 
 R: Via le bouton du poste (AST), appuyez dessus, il aura mémorisé les stations les plus fortes, vous n'aurez plus qu'à naviguer entre le bouton 1 à 5 pour choisir votre station | Vous pouvez le réaliser également en jeu via le volant/clavier/manette avec la méthode DSCB
 
+___________
+
+Q: A quoi sert le bouton LOC/DX ? Je peux l'activer/désactiver mais je ne sais pas a quoi il sert
+
+R: La fonction Local/DX permet au scan : Mode Local : Accrocher seulement les stations les mieux reçues | Mode DX : Ce mode est par défaut activé, il permet d'accrocher des stations plus faibles, un peu lointaines mais avec suffisament de force
+
 _______________
+
+
 
 Q: Lorsque j'ouvres le fichier HTML du plugin, rien ne fonctionne
 
@@ -240,7 +248,7 @@ _______________
 
 Q: Est ce que le plugin est compatible avec ATS ?
 
-R: Oui et non, Oui il l'est car la télémétrie est la même que celle de ETS, et non car il n'y a pas de stations configurés pour les villes d'ATS, mais il est tout à fait possible de creer un stationats.js, puis d'y implémenter les stations !, il faut juste creer une copie du plugin, puis remplacer stationseurope.js par stationsats.js (ou le nom souhaité)
+R: Oui il l'est car la télémétrie est la même que celle de ETS, pour le moment il n'y a pas de stations configurés pour les villes d'ATS, mais il est tout à fait possible d'implémenter les stations ! il suffit d'aller dans stationsATS.js
 
 _______________
 
@@ -328,15 +336,6 @@ R: Bien verifier que ETS2 Télémetry.exe soit bien lancé / Assurez vous que l'
 
 ________
 
-Q: Pourquoi lorsque je vais sur Grand Utopia, j'ai les mêmes presets de l'Autostore que sur la map de base ?
-
-R: C'est normal, Le navigateur conserve les derniers presets créés par l'autostore, il ne peux pas différencier les 2, même si ce sont 2 html différents, car l'ID est exactement la même
-
-___________
-
-Q: A quoi sert le bouton LOC/DX ? Je peux l'activer/désactiver mais je ne sais pas a quoi il sert
-
-R: La fonction Local/DX permet au scan : Mode Local : Accrocher seulement les stations les mieux reçues | Mode DX : Ce mode est par défaut activé, il permet d'accrocher des stations plus faibles, un peu lointaines mais avec suffisament de force
 
 
 Projet personnel à but non commercial
