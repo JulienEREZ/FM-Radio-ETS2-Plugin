@@ -214,6 +214,12 @@ R: Lorsque vous vous déplacez, vous vous déplacez dans le rayon d'émission de
 
 ____________
 
+Q: J'ai activé la fonction AF, mais après quelques kilomètres je n'ai plus aucun signal de ma station préférée, n'est il pas censé me garder la station ?
+
+R: Dans le cas ou aucun émetteur a proximité n'émet la station sur une fréquence, ou qu'elle est trop faible, AF clignotera pour rechercher la station, mais ne basculera pas, tant que le signal n'est pas suffisant
+
+____________
+
 Q: A quoi sert L'autostore (AST) ?
 
 R: L'autostore vous permets de mémoriser 5 stations les plus fortes selon votre position
