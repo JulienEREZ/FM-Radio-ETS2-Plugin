@@ -97,8 +97,7 @@ Les émetteurs émettent dans un rayon de 30 à 50km dans la majorité des cas, 
 
 Le bargraphe : La radio possède un système d'affichage de puissance de signal sous forme de bargraphe, 3 niveaux de réception, 3/3 Très bonne réception, 2/3 Bonne réception, 1/3 Moyenne à Faible réception, 0/3 Faible réception jusqu'à aucun signal
 
-La radio est cliquable, vous pouvez naviguer manuellement dans les fréquences, activer un autostore, naviguer dans les presets
-Seul la fonction AF n'est pas nativement implémentée dans l'autoradio à l'origine, d'oû le fait que le bouton soit en dehors de l'autoradio
+La radio est cliquable, vous pouvez naviguer manuellement dans les fréquences, activer un autostore, naviguer dans les presets, activer la fonction AF, Permuter le scan en mode Local ou DX
 
 Les raccourcis : La radio possède des raccourcis directement via le navigateur, vous pouvez naviguer manuellement dans les fréquences avec la touche A pour la fréquence précédente , < pour la fréquence suivante
 
@@ -294,7 +293,7 @@ ________________
 
 Q: Pourquoi ne pas avoir créé un executable plutôt qu'un .bat ?
 
-R: J'ai tenté de creer un executable, mais certaines fonctions fondamentales comme la télémétrie ne répondait plus a l'appel, c'est aussi une façon a ce que chaqu'un puisse modifier certaines choses, comme la sensibilité du scan, le seuil de basculement pour la fonction AF
+R: J'ai tenté de creer un executable, mais certaines fonctions fondamentales comme la télémétrie ne répondait plus a l'appel, c'est aussi une façon a ce que chaqu'un puisse modifier certaines choses, comme la sensibilité du scan (Loc/DX), le seuil de basculement pour la fonction AF
 
 ________________
 
@@ -328,5 +327,10 @@ Q: Pourquoi lorsque je vais sur Grand Utopia, j'ai les mêmes presets de l'Autos
 R: C'est normal, Le navigateur conserve les derniers presets créés par l'autostore, il ne peux pas différencier les 2, même si ce sont 2 html différents, car l'ID est exactement la même
 
 ___________
+
+Q: A quoi sert le bouton LOC/DX ? Je peux l'activer/désactiver mais je ne sais pas a quoi il sert
+
+R: La fonction Local/DX permet au scan : Mode Local : Accrocher seulement les stations les mieux reçues | Mode DX : Ce mode est par défaut activé, il permet d'accrocher des stations plus faibles, un peu lointaines mais avec suffisament de force
+
 
 Projet personnel à but non commercial
