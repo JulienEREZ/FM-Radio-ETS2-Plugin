@@ -336,6 +336,18 @@ R: Bien verifier que ETS2 Télémetry.exe soit bien lancé / Assurez vous que l'
 
 ________
 
+Q: Comment utiliser le plugin via smartphone ?
+
+R: Le plugin est accessible via la page 192.168.x.x:8080 (completez les x par votre IP locale), vous aurez la page qui affiche le plugin
+
+_________
+
+Q: Pourquoi je ne peux pas controler le plugin depuis mon smartphone ?
+
+R: Pour l'instant il n'y a pas de fonction de commande a distance
+
+_____
+
 Q: Je veux utiliser l'afficheur sur mon smartphone, mais je n'y ai pas accès
 
 R: Assurez vous d'être sur le même réseau que le PC, même réseau Wifi | Assurez vous d'avoir bien renseigné la bonne adresse IP tout en bas dans serverdisplay.js , puis dans la page Display_Only_OBS , recherchez  " const ws = new WebSocket("ws://192.168. " et completez votre IP locale | puis dans la page du plugin " const ws = new WebSocket('ws://192.168. " puis completez par votre IP Locale
