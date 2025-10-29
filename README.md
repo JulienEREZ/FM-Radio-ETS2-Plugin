@@ -358,4 +358,11 @@ R: Assurez vous d'être sur le même réseau que le PC, même réseau Wifi | Ass
 _____________ 
 
 
+Q: J'ai changé d'IP Locale sur mon PC qui fait tourner le plugin, comment changer l'IP sur le smartphone afin qu'il puisse communiquer avec le plugin ?
+
+R: Lorsque vous êtes sur le plugin, restez appuyé 2 secondes sur une zone , un formulaire s'affichera et demandera une nouvelle IP locale
+
+_____________
+
+
 Projet personnel à but non commercial
