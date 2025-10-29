@@ -122,7 +122,7 @@ Si vous avez une manette, une boite à boutons, un volant, il suffira d'assigner
 
 -----------------------------------------
 
-Dans le débug en bas de page il y a possibilité de voir le nom de la station, lancer un scan, naviguer dans les fréquences, voir la position actuelle 
+En bas de page il y a possibilité de voir le nom de la station, naviguer dans les fréquences, voir la position actuelle 
 
 -----------------------------------------
 
@@ -342,9 +342,10 @@ R: Le plugin est accessible via la page 192.168.x.x:8080 (completez les x par vo
 
 _________
 
-Q: Pourquoi la page de remote n'a pas exactement les mêmes fonctions ?
+Q: Pourquoi la page de remote n'a pas toutes les fonctions ?
 
-R: La version Remote est simplifiée, Il est tout de même possible d'activer AF / Loc/DX, naviguer dans les presets via le bouton AST, le scan auto se fait via le bouton de recherche de station, le bouton précédent permet la navigation manuelle en arrière  
+R: La version Remote est légèrement simplifiée, Il est tout de même possible d'activer AF / Loc/DX, naviguer dans les presets via le bouton AST, le scan auto se fait via le bouton du milieu de recherche de station A/M, puis la recherche manuelle depuis les boutons + et - de l'interface, la seule fonction manquante est l'enregistrement de AST ainsi que les boutons 1 à 5  
+  
 
 
 _____
