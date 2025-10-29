@@ -342,9 +342,10 @@ R: Le plugin est accessible via la page 192.168.x.x:8080 (completez les x par vo
 
 _________
 
-Q: Pourquoi je ne peux pas controler le plugin depuis mon smartphone ?
+Q: Pourquoi la page de remote n'a pas exactement les mêmes fonctions ?
 
-R: Pour l'instant il n'y a pas de fonction de commande a distance
+R: La version Remote est simplifiée, Il est tout de même possible d'activer AF / Loc/DX, naviguer dans les presets via le bouton AST, le scan auto se fait via le bouton de recherche de station, le bouton précédent permet la navigation manuelle en arrière  
+
 
 _____
 
