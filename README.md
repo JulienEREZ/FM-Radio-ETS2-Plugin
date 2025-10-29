@@ -344,7 +344,7 @@ _________
 
 Q: Pourquoi la page de remote n'a pas toutes les fonctions ?
 
-R: La version Remote est légèrement simplifiée, Il est tout de même possible d'activer AF / Loc/DX, naviguer dans les presets via le bouton AST, le scan auto se fait via le bouton du milieu de recherche de station A/M, puis la recherche manuelle depuis les boutons + et - de l'interface, la seule fonction manquante est l'enregistrement de AST ainsi que les boutons 1 à 5  
+R: La version Remote est légèrement simplifiée, Il est tout de même possible d'activer AF / Loc/DX, naviguer dans les presets existants via le bouton AST, le scan auto se fait via le bouton du milieu de recherche de station A/M, puis la recherche manuelle depuis les boutons + et - de l'interface, la seule fonction manquante est l'enregistrement de AST ainsi que les boutons 1 à 5  
   
 
 
