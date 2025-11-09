@@ -80,6 +80,14 @@ http://localhost:8000/RetroTuner_EU.html
 Les prochaines fois, il y aura juste besoin d'aller sur le fichier Start.bat pour tout lancer d'un coup
 
 
+
+# --EDIT 09/11/2025--
+
+Pour avoir une meilleure experience de jeu avec Retrotuner, je vous conseilles d'utiliser Firefox pour la partie logique du plugin
+En effet, Chrome a tendance a ajouter une latence supplémentaire lors des chargement de stations, et donc le chargement de stations est plus rapide
+
+
+
 ---------------------------------------------
 # RetroTuner
 
